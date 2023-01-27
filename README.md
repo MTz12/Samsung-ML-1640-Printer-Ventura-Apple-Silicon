@@ -29,8 +29,8 @@ sudo chown root:admin /Library/Printers/PPDs/Contents/Resources/Samsung\ ML-1640
 ````
 
 - plug in the ML-1640 printer
-- open system settings
-- go to printers & scanners
-- click on **add printer**
-- choose **Samsung ML-1640, Splix V. 2.0.0** as driver
+- open **System Settings**
+- go to **Printers & Scanners**
+- click on **Add Printer**
+- choose **Samsung ML-1640** as driver
 - start printing :)
