@@ -2,9 +2,11 @@
 
 This example shows how to install a Samsung ML-Series printer driver on macOS Ventura.
 
-- clone the provided files
+- clone the provided files and change to ``ML-Series`` branch
 ````
 git clone https://github.com/MTz12/Samsung-ML-1640-Printer-Ventura-Apple-Silicon.git
+cd Samsung-ML-1640-Printer-Ventura-Apple-Silicon
+git checkout ML-Series
 ````
 
 - copy the two files (``*qpdl``) located in the ``/Samsung/UPD/Filters`` folder to
