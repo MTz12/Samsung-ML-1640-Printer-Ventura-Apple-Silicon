@@ -45,8 +45,8 @@ sudo gzip Samsung\ ML-xxxx\ Series
 
 - open a terminal and execute the following commands
 ````
-sudo chmod +x /Library/Printers/PPDs/Contents/Resources/Samsung\ ML-1640\ Series.gz
-sudo chown root:admin /Library/Printers/PPDs/Contents/Resources/Samsung\ ML-1640\ Series.gz
+sudo chmod +x /Library/Printers/PPDs/Contents/Resources/Samsung\ ML-xxxx\ Series.gz
+sudo chown root:admin /Library/Printers/PPDs/Contents/Resources/Samsung\ ML-xxxx\ Series.gz
 ````
 
 - plug in the ML-xxxx printer
