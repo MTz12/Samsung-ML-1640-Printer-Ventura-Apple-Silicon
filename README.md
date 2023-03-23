@@ -7,14 +7,9 @@ This example shows how to install the printer driver for ML-1640 on macOS Ventur
 git clone https://github.com/MTz12/Samsung-ML-1640-Printer-Ventura-Apple-Silicon.git
 ````
 
-- copy the two files (``*qpdl``) located in the ``/Samsung/UPD/Filters`` folder to
+- copy the ``Samsung`` folder to
 ````
-/Library/Printers/Samsung/UPD/Filters/
-````
-
-- copy the ``ML-1640`` folder to
-````
-/Library/Printers/Samsung/
+/Library/Printers/
 ````
 
 copy the ``Samsung ML-1640 Series.gz`` file to
