@@ -1,6 +1,6 @@
-# How install Samsung ML-1640 Printer driver for macOS Ventura and Apple Silicon
+# How to install Samsung ML-1640 printer driver for macOS Ventura and Apple Silicon
 
-This example shows how to install the printer driver for ML-1640 on macOS Ventura.
+This example shows how to install the ML-1640 printer driver on macOS Ventura.
 
 - clone the provided files
 ````
@@ -12,7 +12,7 @@ git clone https://github.com/MTz12/Samsung-ML-1640-Printer-Ventura-Apple-Silicon
 /Library/Printers/
 ````
 
-copy the ``Samsung ML-1640 Series.gz`` file to
+copy the file ``Samsung ML-1640 Series.gz`` to
 ````
 /Library/Printers/PPDs/Contents/Resources/
 ````
@@ -23,9 +23,17 @@ sudo chmod +x /Library/Printers/PPDs/Contents/Resources/Samsung\ ML-1640\ Series
 sudo chown root:admin /Library/Printers/PPDs/Contents/Resources/Samsung\ ML-1640\ Series.gz
 ````
 
-- plug in the ML-1640 printer
-- open **System Settings**
-- go to **Printers & Scanners**
-- click on **Add Printer**
-- choose **Samsung ML-1640** as driver
-- start printing :)
+- Connect the ML-1640 printer
+- Open **System Settings**
+- Go to **Printers & Scanners**
+- Click on **Add Printer**
+- Select **Samsung ML-1640** as the driver
+- You may get an error message: "The Printer software was installed incorrectly."
+- Click on **Repair** to fix the error
+- Start printing a test page
+- You may receive an error message when printing for the first time: "rastertoqpdl cannot be opened because the developer cannot be verified."
+- Open **System Preferences**
+- Go to **Privacy & Security**
+- Scroll down to the message "rastertoqpdl was blocked from use because it is not from an identified developer."
+- Accept the error message and click **Allow Anyway**
+- Try printing again and click **Open** when an error message appears
