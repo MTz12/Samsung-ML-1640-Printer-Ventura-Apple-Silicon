@@ -12,12 +12,12 @@ git clone https://github.com/MTz12/Samsung-ML-1640-Printer-Ventura-Apple-Silicon
 /Library/Printers/
 ````
 
-copy the file ``Samsung ML-1640 Series.gz`` to
+- copy the file ``Samsung ML-1640 Series.gz`` to
 ````
 /Library/Printers/PPDs/Contents/Resources/
 ````
 
-open a terminal and execute the following commands
+- open a terminal and execute the following commands
 ````
 sudo chmod +x /Library/Printers/PPDs/Contents/Resources/Samsung\ ML-1640\ Series.gz
 sudo chown root:admin /Library/Printers/PPDs/Contents/Resources/Samsung\ ML-1640\ Series.gz
