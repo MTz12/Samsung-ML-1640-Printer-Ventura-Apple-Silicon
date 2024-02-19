@@ -1,29 +1,32 @@
 # How to install Samsung ML-1660 printer driver for macOS Ventura and Apple Silicon
 
-This example shows how to install the ML-1640 printer driver on macOS Ventura.
+This example shows how to install the ML-1660 printer driver on macOS Ventura.
 
 - clone the provided files
 ````
 git clone https://github.com/MTz12/Samsung-ML-1640-Printer-Ventura-Apple-Silicon.git
 ````
-
+- swith to the ``ML-1660`` branch
+````
+git checkout ML-1660
+````
 - copy the ``Samsung`` folder to
 ````
 /Library/Printers/
 ````
 
-- copy the file ``Samsung ML-1640 Series.gz`` to
+- copy the file ``Samsung ML-1660 Series.gz`` to
 ````
 /Library/Printers/PPDs/Contents/Resources/
 ````
 
 - open a terminal and execute the following commands
 ````
-sudo chmod +x /Library/Printers/PPDs/Contents/Resources/Samsung\ ML-1640\ Series.gz
-sudo chown root:admin /Library/Printers/PPDs/Contents/Resources/Samsung\ ML-1640\ Series.gz
+sudo chmod +x /Library/Printers/PPDs/Contents/Resources/Samsung\ ML-1660\ Series.gz
+sudo chown root:admin /Library/Printers/PPDs/Contents/Resources/Samsung\ ML-1660\ Series.gz
 ````
 
-- Connect the ML-1640 printer
+- Connect the ML-1660 printer
 - Open **System Settings**
 - Go to **Printers & Scanners**
 - Click on **Add Printer**
