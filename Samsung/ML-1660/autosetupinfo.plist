@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>*DefJobEncryption</key>
+	<dict>
+		<key>NetworkRequest</key>
+		<string>1.3.6.1.4.1.236.11.5.11.81.32.31.2.1.2</string>
+		<key>NetworkReturnText</key>
+		<dict>
+			<key>New item</key>
+			<string></string>
+			<key>New item - 2</key>
+			<string></string>
+		</dict>
+		<key>PPDKey</key>
+		<string>*DefJobEncryption</string>
+		<key>USBRequest</key>
+		<array>
+			<string>N/A</string>
+			<string>N/A</string>
+			<string>N/A</string>
+		</array>
+		<key>USBReturnText</key>
+		<string></string>
+	</dict>
+	<key>*DefaultFinisher</key>
+	<dict>
+		<key>NetworkRequest</key>
+		<string>1.3.6.1.2.1.43.30.1.1.10.1</string>
+		<key>NetworkReturnText</key>
+		<dict>
+			<key>NoReturnText</key>
+			<string>*DefaultFinisher: None</string>
+			<key>Output Tray Stacker subunit</key>
+			<string>*DefaultFinisher: MPFinisher</string>
+		</dict>
+		<key>PPDKey</key>
+		<string>*DefaultFinisher</string>
+		<key>USBRequest</key>
+		<array>
+			<string>0x0A</string>
+			<string>0x01</string>
+			<string>0x00</string>
+		</array>
+		<key>USBReturnByte</key>
+		<string>5</string>
+		<key>USBReturnText</key>
+		<dict>
+			<key>0</key>
+			<string>*DefaultFinisher: None</string>
+			<key>1</key>
+			<string>*DefaultFinisher: MPFinisher</string>
+		</dict>
+	</dict>
+	<key>*DefaultInstalledMemory</key>
+	<dict>
+		<key>NetworkRequest</key>
+		<string>1.3.6.1.2.1.25.2.3.1.3</string>
+		<key>NetworkReturnText</key>
+		<dict>
+			<key>NoReturnText</key>
+			<string>*DefaultInstalledMemory: 256MB</string>
+			<key>RAM</key>
+			<string>*DefaultInstalledMemory: 768MB</string>
+			<key>RamDisk</key>
+			<string>*DefaultInstalledMemory: 768MB</string>
+		</dict>
+		<key>PPDKey</key>
+		<string>*DefaultInstalledMemory</string>
+		<key>USBRequest</key>
+		<array>
+			<string>0x0A</string>
+			<string>0x02</string>
+			<string>0x00</string>
+		</array>
+		<key>USBReturnByte</key>
+		<string>32</string>
+		<key>USBReturnText</key>
+		<dict>
+			<key>0</key>
+			<string>*DefaultInstalledMemory: 256MB</string>
+			<key>1</key>
+			<string>*DefaultInstalledMemory: 768MB</string>
+		</dict>
+	</dict>
+	<key>*DefaultOptHTray2</key>
+	<dict>
+		<key>NetworkRequest</key>
+		<string>1.3.6.1.2.1.43.8.2.1.13.1</string>
+		<key>NetworkReturnText</key>
+		<dict>
+			<key>NoReturnText</key>
+			<string>*DefaultOptHTray2: False</string>
+			<key>Tray 2 ( HCF</key>
+			<string>*DefaultOptHTray2: True</string>
+			<key>Tray 2 ( High</key>
+			<string>*DefaultOptHTray2: True</string>
+			<key>Tray 2 (HCF</key>
+			<string>*DefaultOptHTray2: True</string>
+			<key>Tray 2 (High</key>
+			<string>*DefaultOptHTray2: True</string>
+		</dict>
+		<key>PPDKey</key>
+		<string>*DefaultOptHTray2</string>
+		<key>USBRequest</key>
+		<array>
+			<string>0x0A</string>
+			<string>0x00</string>
+			<string>0x00</string>
+		</array>
+		<key>USBReturnByte</key>
+		<string>5</string>
+		<key>USBReturnText</key>
+		<dict>
+			<key>0</key>
+			<string>*DefaultOptHTray2: True</string>
+			<key>1</key>
+			<string>*DefaultOptHTray2: True</string>
+			<key>10</key>
+			<string>*DefaultOptHTray2: True</string>
+			<key>11</key>
+			<string>*DefaultOptHTray2: True</string>
+			<key>12</key>
+			<string>*DefaultOptHTray2: True</string>
+			<key>13</key>
+			<string>*DefaultOptHTray2: True</string>
+			<key>2</key>
+			<string>*DefaultOptHTray2: True</string>
+			<key>3</key>
+			<string>*DefaultOptHTray2: True</string>
+			<key>4</key>
+			<string>*DefaultOptHTray2: True</string>
+			<key>5</key>
+			<string>*DefaultOptHTray2: True</string>
+			<key>6</key>
+			<string>*DefaultOptHTray2: True</string>
+			<key>7</key>
+			<string>*DefaultOptHTray2: True</string>
+			<key>8</key>
+			<string>*DefaultOptHTray2: True</string>
+			<key>80</key>
+			<string>*DefaultOptHTray2: True</string>
+			<key>9</key>
+			<string>*DefaultOptHTray2: True</string>
+			<key>FF</key>
+			<string>*DefaultOptHTray2: False</string>
+			<key>a</key>
+			<string>*DefaultOptTray2: True</string>
+			<key>b</key>
+			<string>*DefaultOptHTray2: True</string>
+			<key>c</key>
+			<string>*DefaultOptHTray2: True</string>
+			<key>d</key>
+			<string>*DefaultOptHTray2: True</string>
+			<key>e</key>
+			<string>*DefaultOptHTray2: True</string>
+			<key>f</key>
+			<string>*DefaultOptHTray2: True</string>
+		</dict>
+	</dict>
+	<key>*DefaultOptMailbox</key>
+	<dict>
+		<key>NetworkRequest</key>
+		<string>1.3.6.1.2.1.43.30.1.1.10.1</string>
+		<key>NetworkReturnText</key>
+		<dict>
+			<key>NoReturnText</key>
+			<string>*DefaultOptMailbox: False</string>
+			<key>Output Tray Mail Box</key>
+			<string>*DefaultOptMailbox: True</string>
+		</dict>
+		<key>PPDKey</key>
+		<string>*DefaultOptMailbox</string>
+		<key>USBRequest</key>
+		<array>
+			<string>0x0A</string>
+			<string>0x03</string>
+			<string>0x00</string>
+		</array>
+		<key>USBReturnByte</key>
+		<string>2</string>
+		<key>USBReturnText</key>
+		<dict>
+			<key>0</key>
+			<string>*DefaultOptMailbox: False</string>
+			<key>1</key>
+			<string>*DefaultOptMailbox: True</string>
+		</dict>
+	</dict>
+	<key>*DefaultOptTray2</key>
+	<dict>
+		<key>NetworkRequest</key>
+		<string>1.3.6.1.2.1.43.8.2.1.13.1</string>
+		<key>NetworkReturnText</key>
+		<dict>
+			<key>NoReturnText</key>
+			<string>*DefaultOptTray2: False</string>
+			<key>Tray 2</key>
+			<string>*DefaultOptTray2: True</string>
+		</dict>
+		<key>PPDKey</key>
+		<string>*DefaultOptTray2</string>
+		<key>USBRequest</key>
+		<array>
+			<string>0x0A</string>
+			<string>0x00</string>
+			<string>0x00</string>
+		</array>
+		<key>USBReturnByte</key>
+		<string>5</string>
+		<key>USBReturnText</key>
+		<dict>
+			<key>0</key>
+			<string>*DefaultOptTray2: True</string>
+			<key>1</key>
+			<string>*DefaultOptTray2: True</string>
+			<key>10</key>
+			<string>*DefaultOptTray2: True</string>
+			<key>11</key>
+			<string>*DefaultOptTray2: True</string>
+			<key>12</key>
+			<string>*DefaultOptTray2: True</string>
+			<key>13</key>
+			<string>*DefaultOptTray2: True</string>
+			<key>2</key>
+			<string>*DefaultOptTray2: True</string>
+			<key>3</key>
+			<string>*DefaultOptTray2: True</string>
+			<key>4</key>
+			<string>*DefaultOptTray2: True</string>
+			<key>5</key>
+			<string>*DefaultOptTray2: True</string>
+			<key>6</key>
+			<string>*DefaultOptTray2: True</string>
+			<key>7</key>
+			<string>*DefaultOptTray2: True</string>
+			<key>8</key>
+			<string>*DefaultOptTray2: True</string>
+			<key>80</key>
+			<string>*DefaultOptTray2: True</string>
+			<key>9</key>
+			<string>*DefaultOptTray2: True</string>
+			<key>FF</key>
+			<string>*DefaultOptTray2: False</string>
+			<key>a</key>
+			<string>*DefaultOptTray2: True</string>
+			<key>b</key>
+			<string>*DefaultOptTray2: True</string>
+			<key>c</key>
+			<string>*DefaultOptTray2: True</string>
+			<key>d</key>
+			<string>*DefaultOptTray2: True</string>
+			<key>e</key>
+			<string>*DefaultOptTray2: True</string>
+			<key>f</key>
+			<string>*DefaultOptTray2: True</string>
+		</dict>
+	</dict>
+	<key>*DefaultOptTray3</key>
+	<dict>
+		<key>NetworkRequest</key>
+		<string>1.3.6.1.2.1.43.8.2.1.13.1</string>
+		<key>NetworkReturnText</key>
+		<dict>
+			<key>NoReturnText</key>
+			<string>*DefaultOptTray3: False</string>
+			<key>Tray 3</key>
+			<string>*DefaultOptTray3: True</string>
+		</dict>
+		<key>PPDKey</key>
+		<string>*DefaultOptTray3</string>
+		<key>USBRequest</key>
+		<array>
+			<string>0x0A</string>
+			<string>0x01</string>
+			<string>0x00</string>
+		</array>
+		<key>USBReturnByte</key>
+		<string>1</string>
+		<key>USBReturnText</key>
+		<dict>
+			<key>0</key>
+			<string>*DefaultOptTray3: True</string>
+			<key>1</key>
+			<string>*DefaultOptTray3: True</string>
+			<key>10</key>
+			<string>*DefaultOptTray3: True</string>
+			<key>11</key>
+			<string>*DefaultOptTray3: True</string>
+			<key>12</key>
+			<string>*DefaultOptTray3: True</string>
+			<key>13</key>
+			<string>*DefaultOptTray3: True</string>
+			<key>2</key>
+			<string>*DefaultOptTray3: True</string>
+			<key>3</key>
+			<string>*DefaultOptTray3: True</string>
+			<key>4</key>
+			<string>*DefaultOptTray3: True</string>
+			<key>5</key>
+			<string>*DefaultOptTray3: True</string>
+			<key>6</key>
+			<string>*DefaultOptTray3: True</string>
+			<key>7</key>
+			<string>*DefaultOptTray3: True</string>
+			<key>8</key>
+			<string>*DefaultOptTray3: True</string>
+			<key>80</key>
+			<string>*DefaultOptTray3: True</string>
+			<key>9</key>
+			<string>*DefaultOptTray3: True</string>
+			<key>FF</key>
+			<string>*DefaultOptTray3: False</string>
+			<key>a</key>
+			<string>*DefaultOptTray3: True</string>
+			<key>b</key>
+			<string>*DefaultOptTray3: True</string>
+			<key>c</key>
+			<string>*DefaultOptTray3: True</string>
+			<key>d</key>
+			<string>*DefaultOptTray3: True</string>
+			<key>e</key>
+			<string>*DefaultOptTray3: True</string>
+			<key>f</key>
+			<string>*DefaultOptTray3: True</string>
+		</dict>
+	</dict>
+	<key>*DefaultOptTray5</key>
+	<dict>
+		<key>NetworkRequest</key>
+		<string>1.3.6.1.2.1.43.8.2.1.13.1</string>
+		<key>NetworkReturnText</key>
+		<dict>
+			<key>NoReturnText</key>
+			<string>*DefaultOptTray5: False</string>
+			<key>Tray 5</key>
+			<string>*DefaultOptTray5: True</string>
+		</dict>
+		<key>PPDKey</key>
+		<string>*DefaultOptTray5</string>
+		<key>USBRequest</key>
+		<array>
+			<string>0x0A</string>
+			<string>0x06</string>
+			<string>0x00</string>
+		</array>
+		<key>USBReturnByte</key>
+		<string>3</string>
+		<key>USBReturnText</key>
+		<dict>
+			<key>0</key>
+			<string>*DefaultOptTray5: True</string>
+			<key>1</key>
+			<string>*DefaultOptTray5: True</string>
+			<key>10</key>
+			<string>*DefaultOptTray5: True</string>
+			<key>11</key>
+			<string>*DefaultOptTray5: True</string>
+			<key>12</key>
+			<string>*DefaultOptTray5: True</string>
+			<key>13</key>
+			<string>*DefaultOptTray5: True</string>
+			<key>2</key>
+			<string>*DefaultOptTray5: True</string>
+			<key>3</key>
+			<string>*DefaultOptTray5: True</string>
+			<key>4</key>
+			<string>*DefaultOptTray5: True</string>
+			<key>5</key>
+			<string>*DefaultOptTray5: True</string>
+			<key>6</key>
+			<string>*DefaultOptTray5: True</string>
+			<key>7</key>
+			<string>*DefaultOptTray5: True</string>
+			<key>8</key>
+			<string>*DefaultOptTray5: True</string>
+			<key>80</key>
+			<string>*DefaultOptTray5: True</string>
+			<key>9</key>
+			<string>*DefaultOptTray5: True</string>
+			<key>FF</key>
+			<string>*DefaultOptTray5: False</string>
+			<key>a</key>
+			<string>*DefaultOptTray5: True</string>
+			<key>b</key>
+			<string>*DefaultOptTray5: True</string>
+			<key>c</key>
+			<string>*DefaultOptTray5: True</string>
+			<key>d</key>
+			<string>*DefaultOptTray5: True</string>
+			<key>e</key>
+			<string>*DefaultOptTray5: True</string>
+			<key>f</key>
+			<string>*DefaultOptTray5: True</string>
+		</dict>
+	</dict>
+	<key>*DefaultOption2</key>
+	<dict>
+		<key>NetworkRequest</key>
+		<string>1.3.6.1.2.1.43.13.4.1.9.1</string>
+		<key>NetworkReturnText</key>
+		<dict>
+			<key>3</key>
+			<string>*DefaultOption2: True</string>
+			<key>4</key>
+			<string>*DefaultOption2: True</string>
+			<key>NoReturnText</key>
+			<string>*DefaultOption2: False</string>
+		</dict>
+		<key>PPDKey</key>
+		<string>*DefaultOption2</string>
+		<key>USBRequest</key>
+		<array>
+			<string>0x0A</string>
+			<string>0x00</string>
+			<string>0x00</string>
+		</array>
+		<key>USBReturnByte</key>
+		<string>7</string>
+		<key>USBReturnText</key>
+		<dict>
+			<key>0</key>
+			<string>*DefaultOption2: False</string>
+			<key>1</key>
+			<string>*DefaultOption2: True</string>
+		</dict>
+	</dict>
+	<key>*DefaultOption4</key>
+	<dict>
+		<key>NetworkRequest</key>
+		<string>1.3.6.1.2.1.25.2.3.1.3</string>
+		<key>NetworkReturnText</key>
+		<dict>
+			<key>NoReturnText</key>
+			<string>*DefaultOption4: False</string>
+			<key>UsbMemory</key>
+			<string>*DefaultOption4: True</string>
+		</dict>
+		<key>PPDKey</key>
+		<string>*DefaultOption4</string>
+		<key>USBRequest</key>
+		<array>
+			<string>0x0A</string>
+			<string>0x02</string>
+			<string>0x00</string>
+		</array>
+		<key>USBReturnByte</key>
+		<string>37</string>
+		<key>USBReturnText</key>
+		<dict>
+			<key>0</key>
+			<string>*DefaultOption4: False</string>
+			<key>1</key>
+			<string>*DefaultOption4: True</string>
+			<key>2</key>
+			<string>*DefaultOption4: True</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleShortVersionString</key>
+	<string>3.92.00</string>
+	<key>CFBundleVersion</key>
+	<string>3.92.0a01</string>
+	<key>DriverType</key>
+	<string>UPD</string>
+</dict>
+</plist>
