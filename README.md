@@ -30,7 +30,7 @@ sudo chown root:admin /Library/Printers/PPDs/Contents/Resources/Samsung\ ML-1660
 - Open **System Settings**
 - Go to **Printers & Scanners**
 - Click on **Add Printer**
-- Select **Samsung ML-1640** as the driver
+- Select **Samsung ML-1660** as the driver
 - You may get an error message: "The Printer software was installed incorrectly."
 - Click on **Repair** to fix the error
 - Start printing a test page
